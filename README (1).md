@@ -30,7 +30,7 @@ The flasher then reported the flash as finished:
 
 ---
 
-## 3. SSH login ✅ Mostly complete
+## 2. SSH login ✅ complete
 
 Opened an interactive SSH shell from the PC to the board via RDK Studio's Terminal panel. Welcome banner confirms `Ubuntu 22.04.5 LTS (GNU/Linux 6.1.83 aarch64)`, and a command (`ls`) was run successfully at the `root@ubuntu:~#` prompt:
 
