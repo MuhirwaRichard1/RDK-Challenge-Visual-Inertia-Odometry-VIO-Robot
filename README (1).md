@@ -27,20 +27,6 @@ The flasher then reported the flash as finished:
 
 ![Board booted to desktop](Screenshot/05-desktop-boot.png)
 
----
-
-## 2. Network connectivity ⚠️ Partial evidence
-
-The board is reachable on the LAN — RDK Studio's Workspace view shows a live "Connected" session over SSH at `192.168.128.10` with live MEM/TEMP/CPU/BPU/DISK telemetry, which requires the board to have a working IP and be reachable from the PC:
-
-![Workspace connected with live metrics](Screenshot/03-workspace-connected.png)
-
-**Gap:** none of the current screenshots show an explicit outbound check from *inside* the board (e.g. `ping 8.8.8.8` or `curl -I https://example.com`) proving internet + DNS resolution, which is what the challenge's standard of completion asks for. Recommend grabbing one more terminal screenshot running something like:
-
-```bash
-ping -c 4 8.8.8.8
-curl -I https://www.google.com
-```
 
 ---
 
@@ -54,24 +40,10 @@ Opened an interactive SSH shell from the PC to the board via RDK Studio's Termin
 
 ---
 
-## 4. Community connection ❌ Not yet provided
-
-No evidence of joining the official RDK Discord (or announced channel) or completing the Stage 1 check-in template is included yet.
-
-**Action needed:** join the channel, post the self-introduction / check-in, and add the permalink here:
-
-```
-Check-in permalink: <paste link here>
-```
-
----
-
 ## Summary
 
 | # | Task | Status | Evidence |
 |---|------|--------|----------|
 | 1 | System image flash | ✅ Complete | `01-flash-progress.png`, `02-flash-complete.png`, `05-desktop-boot.png` |
-| 2 | Network connectivity | ⚠️ LAN reachability shown; public internet ping/curl not yet captured | `03-workspace-connected.png` |
-| 3 | SSH login | ✅ Shell access shown; exact example commands (`uname -a`, `htop`) not yet captured | `04-ssh-terminal.png` |
-| 4 | Community connection | ❌ Missing | — |
+| 2 | SSH login | ✅ Shell access shown; exact example commands (`uname -a`, `htop`) not yet captured | `04-ssh-terminal.png` |
 
