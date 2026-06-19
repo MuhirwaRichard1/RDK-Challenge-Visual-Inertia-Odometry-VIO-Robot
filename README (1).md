@@ -15,7 +15,7 @@ Flashed using RDK Studio's **Flasher** tool:
 - Image: `RDKOS 3.5.0 Desktop`
 - Steps Download → Decompress → Write → Verify all reported **Done**, write reached 9912.0 MB / 9912.0 MB (100%).
 
-![Flash progress and log](screenshots/01-flash-progress.png)
+![Flash progress and log](Screenshot/01-flash-progress.png)
 
 > Note: the log line reads `Verify: 跳过校验` ("verification skipped"), so the checksum/verify pass itself was bypassed by the tool rather than confirmed — worth knowing if a reviewer asks specifically about verified writes.
 
