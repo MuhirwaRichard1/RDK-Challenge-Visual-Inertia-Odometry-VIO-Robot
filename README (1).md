@@ -21,11 +21,11 @@ Flashed using RDK Studio's **Flasher** tool:
 
 The flasher then reported the flash as finished:
 
-![Flashing complete](screenshots/02-flash-complete.png)
+![Flashing complete](Screenshot/02-flash-complete.png)
 
 **Boot evidence:** Remote Desktop session into the board shows it booted past flashing into a working desktop environment (D-Robotics splash/desktop, application launcher visible), confirming a successful boot:
 
-![Board booted to desktop](screenshots/05-desktop-boot.png)
+![Board booted to desktop](Screenshot/05-desktop-boot.png)
 
 ---
 
@@ -33,7 +33,7 @@ The flasher then reported the flash as finished:
 
 The board is reachable on the LAN — RDK Studio's Workspace view shows a live "Connected" session over SSH at `192.168.128.10` with live MEM/TEMP/CPU/BPU/DISK telemetry, which requires the board to have a working IP and be reachable from the PC:
 
-![Workspace connected with live metrics](screenshots/03-workspace-connected.png)
+![Workspace connected with live metrics](Screenshot/03-workspace-connected.png)
 
 **Gap:** none of the current screenshots show an explicit outbound check from *inside* the board (e.g. `ping 8.8.8.8` or `curl -I https://example.com`) proving internet + DNS resolution, which is what the challenge's standard of completion asks for. Recommend grabbing one more terminal screenshot running something like:
 
@@ -48,7 +48,7 @@ curl -I https://www.google.com
 
 Opened an interactive SSH shell from the PC to the board via RDK Studio's Terminal panel. Welcome banner confirms `Ubuntu 22.04.5 LTS (GNU/Linux 6.1.83 aarch64)`, and a command (`ls`) was run successfully at the `root@ubuntu:~#` prompt:
 
-![SSH terminal session](screenshots/04-ssh-terminal.png)
+![SSH terminal session](Screenshot/04-ssh-terminal.png)
 
 **Gap:** the challenge calls out `uname -a` and `htop` specifically as example commands. The screenshot only shows `ls`. Worth re-running and capturing `uname -a` (and optionally `htop`) for a screenshot that matches the wording exactly.
 
