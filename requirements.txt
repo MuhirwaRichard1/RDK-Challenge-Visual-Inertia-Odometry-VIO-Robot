@@ -1,0 +1,7 @@
+# Python dependencies for distance_servo_led.py (RDK X5)
+#   pip3 install -r requirements.txt
+#
+# Note: Hobot.GPIO is NOT listed here — it ships with the RDK X5 system image
+# and is not available on PyPI. System tool: i2c-tools (sudo apt install i2c-tools).
+
+smbus2>=0.4.0
