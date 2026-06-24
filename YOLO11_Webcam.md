@@ -21,9 +21,9 @@ below is the actual on-device execution.
 Detecting `person`, `chair`, `tvmonitor`, `mouse`, `diningtable` from the live
 C920 feed. The green `FPS` overlay is drawn each frame.
 
-![YOLO11m detection — frame 1](docs/yolo11_webcam/detection_01.jpg)
+![YOLO11m detection — frame 1](detection_01.jpg)
 
-![YOLO11m detection — frame 2](docs/yolo11_webcam/detection_02.jpg)
+![YOLO11m detection — frame 2](detection_02.jpg)
 
 Corresponding terminal output (headless run, labels + confidences per frame):
 
