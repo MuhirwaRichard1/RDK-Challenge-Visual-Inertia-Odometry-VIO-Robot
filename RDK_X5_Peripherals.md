@@ -2,7 +2,8 @@
 
 This project reads distance from a **Benewake TF-Luna** (I2C mode) and uses it to
 drive a **hobby servo** and **three LEDs** through staged thresholds.
-
+![Distance reading from TF-Luna sensor](Screenshot_2026-06-24_22-19-02.png)
+![Distance reading from TF-Luna sensor](Screenshot_2026-06-24_22-19-59.png)
 Main script: [`distance_servo_led.py`](distance_servo_led.py)
 Helper test scripts: [`tfluna_i2c.py`](tfluna_i2c.py) (sensor only),
 [`servo_sweep.py`](servo_sweep.py) (servo only).
