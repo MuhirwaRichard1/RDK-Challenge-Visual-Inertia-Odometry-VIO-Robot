@@ -54,9 +54,9 @@ Opened an interactive SSH shell from the PC to the board via RDK Studio's Termin
 This project reads distance from a **Benewake TF-Luna** (I2C mode) and uses it to
 drive a **hobby servo** and **three LEDs** through staged thresholds.
 
-![Distance reading from TF-Luna sensor](Screenshot_2026-06-24_22-19-02.png)
+![Distance reading from TF-Luna sensor](readings_of_TF-Luna.png)
 
-![Distance reading from TF-Luna sensor](Screenshot_2026-06-24_22-19-59.png)
+![Distance reading from TF-Luna sensor](readings_of_TF-Luna2.png)
 
 Main script: [`distance_servo_led.py`](distance_servo_led.py)
 
